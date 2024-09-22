@@ -1,0 +1,55 @@
+
+
+
+
+.hero-section {
+  background: linear-gradient(45deg, var(--secondary-bg), var(--tertiary-bg));
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--tertiary-bg);
+}
+
+.auth-modal .modal-content {
+  background-color: rgba(26, 26, 26, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.auth-modal .form-control {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border-color: var(--input-border);
+}
+
+.auth-modal .form-control:focus {
+  background-color: var(--button-hover);
+  border-color: var(--accent-1);
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 252, 0.25);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--accent-1);
+  color: var(--primary-bg);
+}
+
+#about {
+  background: linear-gradient(45deg, var(--tertiary-bg), var(--secondary-bg));
+}
+
+#contact {
+  background: linear-gradient(45deg, var(--secondary-bg), var(--tertiary-bg));
+}
+
+.social-icon:hover {
+  color: var(--accent-2) !important;
+}
+
+.navbar-brand div {
+  background: linear-gradient(45deg, var(--accent-1) 30%, var(--accent-2) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.last{
+  width: 100% !important;
+}
